@@ -34,7 +34,7 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
-                case 5: System.Environment.Exit(0);
+                case 5: System.Environment.Exit(0); break;
                 default: Menu(); break;
 
             }
